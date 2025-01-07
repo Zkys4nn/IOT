@@ -1,0 +1,6 @@
+{
+    "require": {
+        "endroid/qr-code": "^5.1",
+        "php-mqtt/client": "^2.2"
+    }
+}
