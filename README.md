@@ -57,17 +57,17 @@ This project demonstrates an **Internet of Things (IoT)**-based **attendance sys
     password VARCHAR(255) NOT NULL
     );
 
-    CREATE TABLE absen (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      user_id INT NOT NULL,
-      nama VARCHAR(100),
-      absensi VARCHAR(50),
-      timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   CREATE TABLE absen (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    nama VARCHAR(100),
+    absensi VARCHAR(50),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
 
-    CREATE TABLE tokens (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      token VARCHAR(255) NOT NULL
+   CREATE TABLE tokens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(255) NOT NULL
     );
 
 4. Set up NodeMCU ESP8266:
