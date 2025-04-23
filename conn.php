@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "zakiy";
-$password = "11235381m";
-$dbname = "iot";
+$username = "your_db_username";
+$password = "your_db_passwd";
+$dbname = "your_db_name";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
